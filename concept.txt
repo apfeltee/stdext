@@ -1,0 +1,16 @@
+
+
+#include <stdext/stdext.h>
+#include <stdext/string.h>
+#include <stdext/file.h>
+#include <stdext/path.h>
+using namespace se = stdext;
+
+auto selfpath = se::path::selfpath()
+auto selfdir = se::path::dirname(selfpath)
+
+// ....
+
+auto data = file::
+
+std::cout << "result = " << se::string::format("number: <%1>", 5930) << std::endl
